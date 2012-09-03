@@ -39,16 +39,8 @@ input {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-	padding: 0 20px 20px;
+	padding: 20px;
 }
-
-
-/* Header
------------------------------------------------------------------------------*/
-header {
-  height: 100px;
-}
-
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -60,11 +52,9 @@ table{
     padding: 7px 15px;
     border-bottom: 1px solid #eee;
   }
-
   .col1{
     width: 35%;
   }
-
   dt{
     cursor: pointer;
     font-style: italic;
@@ -75,9 +65,6 @@ table{
     content: '-';
     margin-right: 5px;
   }
-  dt{
-
-  }
   dd{
     margin: 0 0 20px 0px;
     padding: 10px 0 14px 30px;
@@ -86,7 +73,6 @@ table{
 
     display: none;
   }
-
   .show-all{
     display: inline-block;
     float: right;
