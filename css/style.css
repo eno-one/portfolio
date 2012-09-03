@@ -86,11 +86,13 @@ header {
       margin: 0 0 20px 0px;
       padding: 10px 0 17px 30px;
       border-bottom: 1px solid #eee;
+      background-color: #F9F9F9;
       
       display: none;
+      
     }
     
-    .showAll{
+    .show-all{
       display: inline-block;
       float: right;
       border-bottom: 1px dashed;
