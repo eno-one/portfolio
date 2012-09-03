@@ -1,8 +1,8 @@
 body {
-  font: 13px/20px Arial, Tahoma, Verdana, sans-serif;
+  font: 13px/20px Verdana,Tahoma, Arial,  sans-serif;
 }
 a {
-  color: #000;
+  color: #555;
   outline: none;
   text-decoration: underline;
 }
@@ -23,6 +23,12 @@ p {
 }
 img {
   border: none;
+}
+ul{
+  margin: 7px 0 7px 14px;
+}
+li{
+  margin-bottom: 5px;
 }
 input {
   vertical-align: middle;
@@ -69,6 +75,10 @@ header {
     }
     dd{
       margin: 0 0 20px 10px;
+      padding: 10px 0 17px;
+      border-bottom: 1px solid #eee;
+      
+      display: none;
     }
 
 
